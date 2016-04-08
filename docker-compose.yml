@@ -6,7 +6,7 @@ web:
   ports:
     - "8000:8000"
   volumes:
-    - app:/app
+    - ./app:/app
 db:
   image: mysql
   ports:
